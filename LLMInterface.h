@@ -18,6 +18,7 @@
 class LLMInterface {
 public:
     static std::string invoke(const std::string& input_message);
+    static void invokeAsync(const std::string& input_message);
     static std::string player_say(const std::string& player_message);
 };
 
